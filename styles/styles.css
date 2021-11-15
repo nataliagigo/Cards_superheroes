@@ -1,0 +1,129 @@
+.header{
+background: #1CD1B0;
+margin:0%;
+padding-top:10px;
+padding-bottom: 10px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --green:  #1CD1B0;
+    --blue: #00669F;
+    --red: #CC2424;
+    --gray: #F3F3F3;
+    --white: #FFFF;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}  
+.heroe{
+    margin: 20px;
+    position:absolute;
+  }
+h1{
+padding-top:28px;
+padding-bottom:26px;
+padding-left:28px;
+margin-top: 0%;
+background: #00669F;
+box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+font: Roboto;
+font-weight: 400;
+line-height: 46,88px;
+size:40px;
+}
+#batman1{
+    background-image:url(../img/fondobatman.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 193px;
+    top:0px;
+}
+#Harley{
+    background-image:url(../img/fondoharley.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 193px;
+    top:0px;
+}
+#batman2{
+    background-image:url(../img/fondobatman.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 193px;
+    top:0px;
+}
+.fotobat{
+    border-radius: 50%;
+    position: absolute;
+    height: 118px;
+    left: 90px;
+    top: 126px;
+    width: 120px;
+}
+.fa-heart{
+    color: var(--red);
+    font-size: 30px;
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+  }
+.fotohar{
+    border-radius: 50%;
+    position: absolute;
+    height: 90px;
+    left: 80px;
+    top: 145px;
+    width: 120px;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 336px;
+    background-color: var(--gray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+.contenido h2 {
+    margin: 74px 0 10px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+.fondo {
+    height: 193px;
+    position: relative;
+    width: 300px;
+    border-radius: 16px 16px 0px 0px;
+}
+.cards-heroes {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 134px 12px;
+}
+.contenido button {
+    background-color: var(--blue);
+    height: 48.52px;
+    width: 128.78px;
+    margin: 37px 0 18px 0;
+    border: none;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+  }
+  footer {
+    height: 51px;
+    background-color: var(--blue);
+    padding: 16px 0 16px 16px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    text-align:center;
+  }
